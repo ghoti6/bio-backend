@@ -40,7 +40,7 @@ def generate_bio(req: BioRequest):
     }
 
     json_data = {
-        "model": "deepseek/deepseek-r1-0528-qwen3-8b:free",
+        "model": "nvidia/nemotron-3-super-120b-a12b:free",
         "messages": [
             {"role": "system", "content": "You are a helpful assistant that writes great freelancer bios."},
             {"role": "user", "content": prompt}
